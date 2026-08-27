@@ -110,7 +110,7 @@ nav a:hover, .resume-link:hover { color: var(--ink); }
 .availability span {
   width: 8px;
   height: 8px;
-  background: var(--accent);
+  background: var(--ink);
   border-radius: 50%;
   box-shadow: 0 0 0 5px rgba(200, 115, 63, .12);
 }
@@ -183,10 +183,9 @@ h1 {
   background: var(--accent);
   -webkit-mask: var(--skill-icon) center / contain no-repeat;
   mask: var(--skill-icon) center / contain no-repeat;
-  filter: drop-shadow(0 0 10px rgba(200, 115, 63, .12));
+  filter: none;
 }
-.skill-icon--light { background: var(--ink); filter: none; }
-.skill-item strong { display: block; font-size: .85rem; font-weight: 500; }
+.skill-item strong { display: block; color: var(--accent); font-size: .85rem; font-weight: 500; }
 .skill-item small { color: var(--faint); font: 300 .62rem var(--mono); text-transform: uppercase; }
 
 .projects-section { position: relative; padding: clamp(70px, 9vw, 130px) clamp(28px, 5vw, 72px); border-top: 1px dashed var(--line); border-bottom: 1px dashed var(--line); }

@@ -82,7 +82,7 @@ const currentYear = new Date().getFullYear();
               {skills.map((skill) => (
                 <div class="skill-item">
                   <span
-                    class:list={['skill-icon', { 'skill-icon--light': skill.tone === 'light' }]}
+                    class="skill-icon"
                     style={`--skill-icon: url("${skill.icon}")`}
                     aria-hidden="true"
                   ></span>
