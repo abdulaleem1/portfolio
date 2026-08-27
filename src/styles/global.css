@@ -59,6 +59,7 @@ nav a:hover, .resume-link:hover { color: var(--ink); }
 .hero {
   position: relative;
   margin: clamp(28px, 5vw, 72px);
+  margin-bottom: 0;
   border: 1px dashed var(--line);
 }
 
@@ -119,11 +120,22 @@ h1 {
   max-width: 850px;
   font-size: clamp(4rem, 10vw, 9.5rem);
   font-weight: 600;
-  line-height: .78;
+  line-height: .82;
   letter-spacing: -.075em;
 }
 
-h1 em, .contact-section h2 em {
+.surname {
+  display: inline-block;
+  color: transparent;
+  font-size: .72em;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: .035em;
+  -webkit-text-stroke: 1.5px var(--ink);
+  text-transform: uppercase;
+}
+
+.contact-section h2 em {
   color: transparent;
   font-style: normal;
   -webkit-text-stroke: 1.5px var(--ink);
@@ -142,13 +154,6 @@ h1 em, .contact-section h2 em {
 .hero-statement strong { color: var(--accent); font-weight: 500; }
 .hero-meta { display: grid; gap: 10px; margin-top: 52px; padding-top: 20px; border-top: 1px solid var(--line-soft); }
 .hero-meta span { color: var(--muted); font: 400 .69rem var(--mono); text-transform: uppercase; letter-spacing: .12em; }
-
-.connector { position: absolute; left: 50%; width: 1px; height: clamp(45px, 6vw, 80px); border-left: 1px dashed var(--line); }
-.connector span { position: absolute; left: -4px; width: 7px; height: 7px; border: 1px solid var(--ink); background: var(--canvas); border-radius: 50%; }
-.connector--bottom { bottom: 0; transform: translate(-50%, 100%); }
-.connector--bottom span { top: -4px; }
-.connector--top { top: 0; transform: translate(-50%, -100%); }
-.connector--top span { bottom: -4px; }
 
 .split-section {
   display: grid;
@@ -239,7 +244,7 @@ footer { display: flex; justify-content: space-between; padding: 26px clamp(28px
 @media (max-width: 620px) {
   .page-shell { border-top-width: 4px; }
   .site-header { padding: 18px 20px; }
-  .hero { margin: 34px 20px; }
+  .hero { margin: 34px 20px 0; }
   .hero-copy { min-height: 450px; padding: 48px 24px 36px; }
   .hero-statement { min-height: auto; padding: 40px 24px; }
   .availability { font-size: .62rem; }
