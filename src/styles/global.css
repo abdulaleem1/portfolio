@@ -110,7 +110,7 @@ nav a:hover, .resume-link:hover { color: var(--ink); }
 .availability span {
   width: 8px;
   height: 8px;
-  background: var(--ink);
+  background: var(--accent);
   border-radius: 50%;
   box-shadow: 0 0 0 5px rgba(200, 115, 63, .12);
 }
@@ -180,7 +180,7 @@ h1 {
   flex: 0 0 54px;
   width: 54px;
   height: 54px;
-  background: var(--accent);
+  background: var(--ink);
   -webkit-mask: var(--skill-icon) center / contain no-repeat;
   mask: var(--skill-icon) center / contain no-repeat;
   filter: none;
