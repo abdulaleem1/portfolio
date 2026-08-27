@@ -174,9 +174,18 @@ h1 {
 .text-link span { color: var(--accent); }
 
 .skill-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; background: var(--line-soft); border: 1px solid var(--line-soft); }
-.skill-item { min-height: 104px; display: flex; align-items: center; gap: 15px; padding: 20px; background: var(--canvas); }
-.skill-mark { display: grid; place-items: center; flex: 0 0 50px; height: 50px; color: var(--accent); border: 1px solid var(--accent); font: 500 .82rem var(--mono); transform: rotate(-2deg); }
-.skill-item:nth-child(3n) .skill-mark { color: var(--ink); border-color: var(--faint); transform: rotate(2deg); }
+.skill-item { min-height: 112px; display: flex; align-items: center; gap: 19px; padding: 20px; background: var(--canvas); }
+.skill-icon {
+  display: block;
+  flex: 0 0 54px;
+  width: 54px;
+  height: 54px;
+  background: var(--accent);
+  -webkit-mask: var(--skill-icon) center / contain no-repeat;
+  mask: var(--skill-icon) center / contain no-repeat;
+  filter: drop-shadow(0 0 10px rgba(200, 115, 63, .12));
+}
+.skill-item:nth-child(3n) .skill-icon { background: var(--ink); filter: none; }
 .skill-item strong { display: block; font-size: .85rem; font-weight: 500; }
 .skill-item small { color: var(--faint); font: 300 .62rem var(--mono); text-transform: uppercase; }
 

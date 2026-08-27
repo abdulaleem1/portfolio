@@ -51,7 +51,7 @@ const currentYear = new Date().getFullYear();
               </p>
               <div class="hero-meta">
                 <span>10+ years</span>
-                <span>Full stack</span>
+                <span>Full stack with focus on UI/UX</span>
                 <span>Cloud systems</span>
               </div>
             </div>
@@ -81,7 +81,11 @@ const currentYear = new Date().getFullYear();
             <div class="skill-grid">
               {skills.map((skill) => (
                 <div class="skill-item">
-                  <span class="skill-mark" aria-hidden="true">{skill.mark}</span>
+                  <span
+                    class="skill-icon"
+                    style={`--skill-icon: url("${skill.icon}")`}
+                    aria-hidden="true"
+                  ></span>
                   <div>
                     <strong>{skill.name}</strong>
                     <small>{skill.group}</small>

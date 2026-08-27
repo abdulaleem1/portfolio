@@ -22,3 +22,7 @@ The Markdown conversion was produced with Microsoft MarkItDown from its official
 ```
 
 The helper clones the requested repository into the ignored `vendor/` directory and uses its PDF converter directly.
+
+## Icon sources
+
+Technology SVGs are sourced from [Simple Icons](https://github.com/simple-icons/simple-icons) and [Devicon](https://github.com/devicons/devicon), then rendered as monochrome masks in the site's theme colors.
