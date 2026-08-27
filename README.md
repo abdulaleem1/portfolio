@@ -1,4 +1,4 @@
-# Abdul Aleem Syed — Portfolio
+# Portfolio
 
 An Astro portfolio generated from the 2026 resume and styled in a technical infographic design language.
 
