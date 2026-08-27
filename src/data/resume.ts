@@ -53,12 +53,12 @@ export const experience = [
 
 export const skills = [
   { icon: '/icons/angular.svg', name: 'Angular', group: 'Front end' },
-  { icon: '/icons/typescript.svg', name: 'TypeScript', group: 'Language' },
-  { icon: '/icons/react.svg', name: 'React', group: 'Front end' },
+  { icon: '/icons/typescript.svg', name: 'TypeScript', group: 'Language', tone: 'light' },
+  { icon: '/icons/react.svg', name: 'React', group: 'Front end', tone: 'light' },
   { icon: '/icons/dotnet.svg', name: '.NET Core', group: 'Back end' },
   { icon: '/icons/springboot.svg', name: 'Java / Spring', group: 'Back end' },
-  { icon: '/icons/microsoftsqlserver.svg', name: 'SQL Server', group: 'Data' },
-  { icon: '/icons/amazonwebservices.svg', name: 'AWS', group: 'Cloud' },
+  { icon: '/icons/microsoftsqlserver.svg', name: 'SQL Server', group: 'Data', tone: 'light' },
+  { icon: '/icons/amazonwebservices.svg', name: 'AWS', group: 'Cloud', tone: 'light' },
   { icon: '/icons/microsoftazure.svg', name: 'Azure', group: 'Cloud' },
 ];
 

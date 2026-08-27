@@ -185,7 +185,7 @@ h1 {
   mask: var(--skill-icon) center / contain no-repeat;
   filter: drop-shadow(0 0 10px rgba(200, 115, 63, .12));
 }
-.skill-item:nth-child(3n) .skill-icon { background: var(--ink); filter: none; }
+.skill-icon--light { background: var(--ink); filter: none; }
 .skill-item strong { display: block; font-size: .85rem; font-weight: 500; }
 .skill-item small { color: var(--faint); font: 300 .62rem var(--mono); text-transform: uppercase; }
 
