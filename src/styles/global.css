@@ -127,12 +127,13 @@ h1 {
 .surname {
   display: inline-block;
   color: transparent;
+  -webkit-text-fill-color: transparent;
   font-size: .72em;
   font-weight: 500;
   line-height: 1;
-  letter-spacing: .035em;
+  letter-spacing: -.015em;
   -webkit-text-stroke: 1.5px var(--ink);
-  text-transform: uppercase;
+  paint-order: stroke fill;
 }
 
 .contact-section h2 em {
