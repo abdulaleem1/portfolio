@@ -185,7 +185,7 @@ h1 {
   mask: var(--skill-icon) center / contain no-repeat;
   filter: none;
 }
-.skill-item strong { display: block; color: var(--accent); font-size: .85rem; font-weight: 500; }
+.skill-item strong { display: block; color: var(--ink); font-size: .85rem; font-weight: 500; }
 .skill-item small { color: var(--faint); font: 300 .62rem var(--mono); text-transform: uppercase; }
 
 .projects-section { position: relative; padding: clamp(70px, 9vw, 130px) clamp(28px, 5vw, 72px); border-top: 1px dashed var(--line); border-bottom: 1px dashed var(--line); }
